@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="theme.CSS"> 
+	<title>
+		Home Page
+	</title>
+</head>
+<body>
+	<script>
+	function randomPlay() {
+        var play = Math.random() * 3;
+        if (play < 1) {
+                return "rock";
+        } else if (play < 2) {
+                return "paper";
+        } else {
+                return "scissors";
+        }
+}
+ 
+// fill this out
+function rockPaperScissors() {
+        myPlay = prompt("What do you play? Rock, paper, or scissors?");
+        if (myPlay == "rock" || myPlay == "scissors" || myPlay == "paper") {
+                console.log("You played " + myPlay);
+        } else {
+                console.log("You didn't provide a valid play.")
+        }
+ 
+        compPlay = randomPlay();
+        console.log("Computer played " + compPlay);
+ 
+        if (/* fill this out */) {
+                console.log("You win.")
+        } else if (/* fill this out */) {
+                console.log("You and the computer tie.")
+        } else if (/* fill this out */) {
+                console.log("Computer wins.")
+        }
+}
+	</script>
+	<h1 id="header.hello">
+		Hello, World!
+	</h1>
+	<IMG Src="http://upload.wikimedia.org/wikipedia/commons/f/fa/Globe.svg" style="height: 200px">
+	<div> 
+
+	<p> 
+		Welcome to my web page created at Yale's Code Blue event. This is the first event hosted by the Y Hack team for teens who code or want to learn how to code. Keep checking in for updates!
+	</p> 
+	<a href="http://codeblue.yhack.org/live/">Find out more about Code Blue
+	</a>
+	</div>
+	<h2 id="header.info">
+		Welcome!
+	</h2>
+	<h3>
+		this web page was made possible by Yale University
+	<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+</h3>
+
+</body>
+</html>
